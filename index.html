@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./contactstyles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Poiret+One&family=Poppins:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+ <div class="container">
+    <form action="https://formsubmit.co/afrafathima2508@gmail.com" method="POST">
+            <input type="hidden" name="_subject" value="New request!">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="enquiry">Enquiry Category:</label>
+                <select id="enquiry" name="enquiry">
+                    <option value="none"></option>
+                    <option value="Volunteer">Volunteer</option>
+                    <option value="speaker">Speaker</option>
+                    <option value="sponser">Sponser</option>
+                    <option value="Donate">Donate</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit">
+            </div>
+            <input type="hidden" name="_next" value="thankyou.html">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://afra-fathima.github.io/results/">
+        </form>
+    </div>
+    
+    
+<br> <br> <br>
+<footer>
+    <br>
+    <h5>© The Megha Foundation - Saranalaya Children Home | All rights Reserved</h5>
+    <br>
+</footer>
+</body>
+</html>
